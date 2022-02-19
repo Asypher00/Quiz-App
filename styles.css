@@ -1,0 +1,60 @@
+:root{
+    --child-bg-color : rgb(9, 9, 100);
+}
+
+body{
+    font-family: "comic sans ms";
+    background-color: lightgray;
+    color : #fff;
+}
+
+.container{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-header{
+    background-color: var(--child-bg-color);
+    padding : 1.25rem;
+    
+}
+
+.home-wrapper{
+    width : 95vw;
+    height : 50vh;
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap : 3.125rem;
+  
+    
+}
+
+.home-child{
+    background-color: var(--child-bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.child-img{
+height : 31.25rem;
+width : 100%;
+
+border-radius: 1.25rem;
+}
+
+.border{
+    border : 5px solid white;
+    border-radius: 1.25rem;
+}
+.child-txt{
+    padding: 20px;
+}
+.btn{
+    color : var(--child-bg-color);
+    background-color: lightgray;
+}
+.link-txt{
+    color: var(--child-bg-color);
+    text-decoration: none;
+}
