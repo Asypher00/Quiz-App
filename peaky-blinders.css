@@ -51,3 +51,8 @@ margin : 2rem;
 .nav-link:hover{color : white;
 
 }
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
