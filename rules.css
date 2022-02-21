@@ -1,0 +1,33 @@
+:root{
+    --child-bg-color : rgb(9, 9, 100);
+    
+}
+
+body{
+   color : white;
+   text-align: center;
+   font-family: "comic sans ms";
+   display: flex;
+   
+}
+
+.border{
+    border : 5px solid white;
+    border-radius: 1.25rem;
+}
+
+.rule-container{position: relative;
+    top : 20vh;
+     padding : 1.875rem;
+    background-color: var(--child-bg-color);
+    font-size: 2rem;
+}
+
+.rule-link{
+    text-decoration: none;
+    color : var(--child-bg-color);
+}
+
+.btn{
+    background-color: lightgray;
+}
