@@ -44,10 +44,10 @@ margin : 2rem;
        display: flex;
        flex-direction: column;
    }
-
    .nav-link{
-       text-decoration: none;
-   }
-   .nav-link:hover{color : white;
+    text-decoration: none;
+    color : black;
+}
+.nav-link:hover{color : white;
 
-   }
+}
